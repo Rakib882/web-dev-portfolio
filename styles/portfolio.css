@@ -5,11 +5,29 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* shared style */
+.secondary-bg {
+    background-color: #FFF8F3;
+
+}
 .text-primary {
     color:#FD6E0A;
 }
-.dark-2 {
+.dark-1 {
+    color:#181818
 }
+.dark-2 {
+    color:#474747;
+}
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description {
+    font-size: 18px;
+    color:#757575;
+}
+
 .btn {
     background-color: #FD6E0A;
     font-weight:bold;
@@ -70,3 +88,65 @@ nav li a {
  .rakib {
     width: 580px;
  }
+/* main style */
+main {
+    max-width: 1140px;
+    margin:0 auto;
+
+}
+
+ /* About Style */
+ main section {
+    margin-top: 130px;
+    margin-bottom:130px;
+ }
+ .about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+ }
+ .about-items {
+    display:flex;
+    justify-content: space-around;
+ }
+ .about-item{
+    text-align: left;
+
+ }
+ .item-description{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ /* What I Do */
+ .skills {
+    text-align: center;
+ }
+
+ /* skill cards */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    text-align: left;
+}
+.skill{
+    box-shadow: 0px 6px 50px 0px lightgray;
+    border-radius: 5px;
+    padding:33px;
+}
+.skil {
+    display: flex;
+}
+
+
+/* resume section */
+.resume-container {
+    display: flex;
+    gap:24px;
+}
+.experience-description {
+    color: #757575;
+    font-size: 20px;
+}
